@@ -1,0 +1,53 @@
+body,
+html {
+    height: 100%;
+    width: 100%; 
+    font-family: 'Montserrat', sans-serif;
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 3rem;
+    color: #e2dbdb;
+  }
+
+  hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {	
+    background-color: #F05F44;	
+    border-color: #F05F44;	
+    --bs-btn-hover-bg: #ee4b08;	
+    --bs-btn-hover-border-color: #ee4b08;
+}
+
+.btn-primary:active {
+    background-color: #ee4b08; /* Cor de fundo ao clicar */
+    border-color: #ee4b08; /* Cor da borda ao clicar */
+    transform: scale(0.95); /* Efeito de "pressionar" */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra ao clicar */
+}
+
+
+.buffer {
+  height: 10rem;
+}
